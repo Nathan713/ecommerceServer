@@ -1,0 +1,21 @@
+{
+  "name": "ecommerceserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-claudia": "claudia generate-serverless-express-proxy --express-module server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "stripe": "^14.2.0"
+  },
+  "devDependencies": {
+    "claudia": "^5.14.1"
+  }
+}
