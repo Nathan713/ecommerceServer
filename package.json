@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "init-claudia": "claudia generate-serverless-express-proxy --express-module server"
+    "init-claudia": "claudia generate-serverless-express-proxy --express-module server",
+    "create-api": "claudia create --handler lambda.handler --deploy-proxy-api --region us-east-1",
+    "update-api": "claudia update"
   },
   "author": "",
   "license": "ISC",
